@@ -1,11 +1,11 @@
 body {
 	margin: 0;
-	font-family: Calibri;
+	font-family: 'Philosopher', sans-serif;
 }
 
 .container {
 	margin: 0 auto;
-	width: 800px;
+	width: 1000px;
 }
 
 header {
@@ -43,16 +43,6 @@ header {
   }
   100% {
     box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
-  }
-}
-
-@keyframes shadow-pulse-big
-{
-  0% {
-    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
-  }
-  100% {
-    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
   }
 }
 
@@ -112,10 +102,6 @@ main {
 	margin-bottom: 50px;
 	margin-right: 20px;
 	text-align: center;
-}
-
-.item:hover {
-	animation: shadow-pulse-big 1s;
 }
 
 .addToCartBtn {
